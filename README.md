@@ -311,6 +311,8 @@ Interfaces are **different** from classes in that:
 - All interface methods are *implicitly* abstract
 - An interface cannot have instance fields; only `static final` fields (constants)
 - An interface can extend multiple interfaces (classes can implement multiple interfaces - but they *cannot* extend multiple classes)
+- An interface can have methods with logic written.
+- An interface can only have public access modifier.
 
 Interfaces and their methods are implicitly `abstract`. Their methods are implicitly `public`.
 
